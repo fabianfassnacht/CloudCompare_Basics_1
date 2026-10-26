@@ -7,7 +7,7 @@ Hopefully you have installed CloudCompare already on your laptops. If not, pleas
 
 In this tutorial we will use a dataset collected with a mobile laser scanner (a device very similar to a terrestrial laserscanning but it collects data while the scanner itself moves). The name of the file is "pine_stand.las" and contains a point cloud of a Pine stand in Spain. You can download the dataset here:
 
-[Pine_stands.las](https://drive.google.com/file/d/1scJt4r9eL8DkLFanU7wgSXh9OCpI8j0X/view?usp=share_link)
+[Pine_stands.las](https://drive.google.com/file/d/1scJt4r9eL8DkLFanU7wgSXh9OCpI8j0X/view?usp=sharing)
 
 ## Loading and visualizing data 
 
