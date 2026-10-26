@@ -9,7 +9,7 @@ In this tutorial we will use a dataset collected with a mobile laser scanner (a 
 
 [Pine_stands.las](https://drive.google.com/file/d/1scJt4r9eL8DkLFanU7wgSXh9OCpI8j0X/view?usp=sharing)
 
-## Loading and visualizing data 
+## Loading and visualising data 
 
 Go to **File> Open** and navigate to the point cloud file, changing the drop-down file type to ‘LAS cloud (.las, .laz)
 
@@ -23,46 +23,46 @@ You should now see a scan loaded in the main CC viewer. Highlight the scan name 
 
 **Figure 1: DB tree window after loading the dataset**
 
-We will now adjust the coloring of the point cloud and assign the color of each point by its height (z-value).
+We will now adjust the colouring of the point cloud and assign the colour of each point by its height (z-value).
 
-For this we select "Edit" -> "Colors" -> "Height Ramp" (Figure 2) and in the new pop-up window (Figure 3) we keep the standard settings, make sure that the in the "direction" field "z" is selected and click "OK".
+For this we select "Edit" -> "Coors" -> "Height Ramp" (Figure 2) and in the new pop-up window (Figure 3) we keep the standard settings, make sure that the in the "direction" field "z" is selected and click "OK".
 
-![Figure 2: Editing the color scale 1/2](Fig_02.png)
+![Figure 2: Editing the colour scale 1/2](Fig_02.png)
 
-**Figure 2: Editing the color scale 1/2**
+**Figure 2: Editing the colour scale 1/2**
 
-![Figure 3: Editing the color scale 2/2](Fig_03.png)
+![Figure 3: Editing the colour scale 2/2](Fig_03.png)
 
-**Figure 3: Editing the color scale 2/2**
+**Figure 3: Editing the colour scale 2/2**
 
-This will result in a new visualization as seen in Figure 4. We can now quite clearly identify crowns of individual trees in the point cloud which have reddish values while blueish and greenish colors indicate lower point cloud heights.
+This will result in a new visualisation as seen in Figure 4. We can now quite clearly identify crowns of individual trees in the point cloud which have reddish values while blueish and greenish colours indicate lower point cloud heights.
 
-![Figure 4: Visualization of the point cloud after editing the colors ](Fig_04.png)
-**Figure 4: Visualization of the point cloud after editing the colors**
+![Figure 4: Visualisation of the point cloud after editing the colours ](Fig_04.png)
+**Figure 4: Visualisation of the point cloud after editing the colours**
 
-In the "**Properties**" window we can see basic information about the point cloud we loaded. Amongst others we can see the "**box dimensions**" which describes the bounding box which contains all points of the point cloud - in our case this box is roughtly 30 by 30 by 30 m.
+In the "**Properties**" window we can see basic information about the point cloud we loaded. Amongst others we can see the "**box dimensions**" which describes the bounding box which contains all points of the point cloud - in our case this box is roughly 30 by 30 by 30 m.
 We can also see the total **number of points** in the point cloud which is "12,174,566"
-Further below in the "**SF display params**" we can see and in theory also modify the color-ramp settings. SF stands for "Scalar Field". At the moment the color of each point in the point cloud is assigned based on its height value and we can see that the colors range from dark blue up to red. Changing the SF display parameters will not affect the main display in our case since the points are currently colored based on their height value and not based on a scalar-field value (our point cloud does not have any additional information attached).
+Further below in the "**SF display params**" we can see and in theory also modify the color-ramp settings. SF stands for "Scalar Field". At the moment the colour of each point in the point cloud is assigned based on its height value and we can see that the colours range from dark blue up to red. Changing the SF display parameters will not affect the main display in our case since the points are currently coloured based on their height value and not based on a scalar-field value (our point cloud does not have any additional information attached).
 
 ![Figure 5: The properties window ](Fig_05.png)
 
 **Figure 5: The properties window**
 
-In case you want to change the background color shown in the main visualization window you can do so by selecting "Display" -> "Display settings". In the new appearing window select "Colors and Materials" and then under the section "Colors" change the "Background" color.
+In case you want to change the background colour shown in the main visualisation window you can do so by selecting "Display" -> "Display settings". In the new appearing window select "Colors and Materials" and then under the section "Colours" change the "Background" colour.
 
-![Figure 6: Changing the background color ](Fig_06.png)
+![Figure 6: Changing the background colour ](Fig_06.png)
 
-**Figure 6: Changing the background color**
+**Figure 6: Changing the background colour**
 
-You can of course also play around with the other settings and see how this affects the visualization in the main visualization window.
+You can of course also play around with the other settings and see how this affects the visualisation in the main visualisation window.
 
 
 ## Navigating in / rotating the point cloud
 
-The visualization window of CloudCompare is interactive and you can rotate and zoom in and out of the point cloud. The basic navigation commands are the following:
+The visualisation window of CloudCompare is interactive and you can rotate and zoom in and out of the point cloud. The basic navigation commands are the following:
 
 - to **rotate** the point cloud **click and hold the left mouse button** and move the mouse
-- to **move the whole point cloud** in the visualization window **click and hold the right mouse button** and move the mouse to move the point cloud
+- to **move the whole point cloud** in the visualisation window **click and hold the right mouse button** and move the mouse to move the point cloud
 - to **zoom-in and out** of the point cloud use the **mouse-wheel** and scroll up and down
 
 In case you "get lost" in the point cloud you can use some of the **buttons** provided on the left in the graphical user interface and marked in Figure 5. By clicking these buttons CloudCompare will always **zoom to the whole point** cloud and set the view point either to the side, to the top or the bottom of the point cloud as indicated by the icons of the buttons.
@@ -81,7 +81,7 @@ Finally, another option to rotate and navigate in the point cloud appears also o
 
 ## Export current view
 
-If you want to export the current view of the main visualization window you can always do so by selecting **"Display" -> "Render to File".** In the upcoming window you can define an output filename and by defining the **"zoom"** value you can increase the resolution of the resulting image.
+If you want to export the current view of the main visualisation window you can always do so by selecting **"Display" -> "Render to File".** In the upcoming window you can define an output filename and by defining the **"zoom"** value you can increase the resolution of the resulting image.
 
 ![Figure 9: Render to File](Fig_09.png)
 
@@ -91,7 +91,7 @@ If you want to export the current view of the main visualization window you can 
 
 In some cases we might be not interested in analyzing the complete point cloud that we have available but only a subset - for example a group of trees or a small number of building. We can manually **create a subset of a point cloud** using CloudCompare and a few simple steps.
 
-To not lose our original point clohd, we will first copy the original scan in the viewer by highlighting the scan name, then selecting **"Edit" -> "Clone"**
+To not lose our original point cloud, we will first copy the original scan in the viewer by highlighting the scan name, then selecting **"Edit" -> "Clone"**
  
 This produces a fresh copy we can segment without losing data from the original point cloud (note you can always also re-import the original scan as long as you don’t over-write when saving / exporting your segmented version). Now untick the original scan and highlight the cloned scan name (Figure 10).
 
@@ -99,7 +99,7 @@ This produces a fresh copy we can segment without losing data from the original 
 
 **Figure 10: Cloned file highlighted.**
 
-Next we click on the **scissors tool** (Marked with 1 in Figure 11) and then draw a polygon over a small area of the point cloud that is of interest (it doesn’t matter where too much at this stage, but keep it fairly small and include some trees). In my case I will try to define a subset area which contains two trees. I start with an overhead-view. While using the scissors tool, left click of the mouse is used to specify vertices and right click to complete the polygon when done. You should see a  box / shape displayed (Marked with 2 in Figure 11). You will also realize that once you click the scissors tool it will grey-out along with the other buttons but a new window with new buttons (the segment tool) appears (Marked with 3 in Figure 11).
+Next we click on the **scissors tool** (Marked with 1 in Figure 11) and then draw a polygon over a small area of the point cloud that is of interest (it doesn’t matter where too much at this stage, but keep it fairly small and include some trees). In my case I will try to define a subset area which contains two trees. I start with an overhead-view. While using the scissors tool, left click of the mouse is used to specify vertices and right click to complete the polygon when done. You should see a  box / shape displayed (Marked with 2 in Figure 11). You will also realise that once you click the scissors tool it will grey-out along with the other buttons but a new window with new buttons (the segment tool) appears (Marked with 3 in Figure 11).
 
 ![Figure 11: The scissors tool to subset a point cloud. ](Fig_11.png)
 
@@ -126,3 +126,24 @@ We can see in Figure 12, that the in my case I did not only segment the two tree
 ![Figure 13: Exporting point clouds. ](Fig_13.png)
 
 **Figure 13: Exporting point clouds.**
+
+
+## Creating a transect view
+
+To create a transect view in CloudCompare we first select the point cloud for which we want to create the transect view and then click the **Cross Section** button from the main icon bar (marked with 1 in Figure 14). Once we clicked the button, a new window will appear and the point clouds is surrounded by a yellow cube with arrows. We can now reduce the displayed part of the point cloud by moving the arrows. In my example, I am moving both green arrows (marked with 2 in Figure 14) to only leave a small transect slice of the point cloud when looking at the point cloud from above. 
+
+![Figure 14: Creating a transect view 1. ](Fig_14.png)
+**Figure 14: Creating a transect view 1.**
+
+Next, we can rotate the point cloud into a side view and can now see a nice transect view of the point cloud (Figure 15). If would like to create the option to create such views more permanently, I can use the slicing option which is offered in the window that was opened after clicking the **Cross Section** button. Here I define the how thick I want to make the slice and in which direction (x, y or z) (marked with 1 in Figure 15 - I later inserted a value of 2 m here which have led to the final results shown in Figure 16) and then click the horizontal or vertical slicing button (marked with 2 in Figure 15)
+
+![Figure 15: Creating a transect view 2. ](Fig_15.png)
+**Figure 15: Creating a transect view 2.**
+
+This will then create a copy of the point cloud where the point cloud is sliced in as many slices as are necessary to slice the whole point-cloud into sections of the user-defined thickness (in my case 2 m). Figure 16 shows the results of this. We can now activate and deactivate slices to create transects view for the entire point cloud.
+
+
+![Figure 16: Creating a transect view 3. ](Fig_16.png)
+**Figure 16: Creating a transect view 3.**
+
+With this we have reached the end of this tutorial and you should now have a basic understanding of some visualisation and navigation options in CloudCompare.
