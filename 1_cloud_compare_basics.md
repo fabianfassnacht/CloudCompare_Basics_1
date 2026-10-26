@@ -67,11 +67,13 @@ The visualization window of CloudCompare is interactive and you can rotate and z
 
 In case you "get lost" in the point cloud you can use some of the **buttons** provided on the left in the graphical user interface and marked in Figure 5. By clicking these buttons CloudCompare will always **zoom to the whole point** cloud and set the view point either to the side, to the top or the bottom of the point cloud as indicated by the icons of the buttons.
 
+If this is not helping, press the 1:1 button above which normally always works.
+
 ![Figure 7: Navigations button in Cloud compare](Fig_07.png)
 
 **Figure 7: Navigations button in Cloud compare.**
 
-Finally, another option to rotate and navigate in the point cloud appears also once you click the and hold the left mouse button. In Figure 7 you can see that **a red, a blue and a green circle** appear. You can use these circles to r**otate the point cloud** within the corresponding axes. It takes a bit of time to get used to this but then navigation should work smoothly.
+Finally, another option to rotate and navigate in the point cloud appears also once you click the and hold the left mouse button. In Figure 7 you can see that **a red, a blue and a green circle** appear. You can use these circles to **rotate the point cloud** within the corresponding axes. It takes a bit of time to get used to this but then navigation should work smoothly.
 
 ![Figure 8: Navigations rings in Cloud Compare](Fig_08.png)
 
